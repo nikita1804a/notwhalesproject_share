@@ -3,8 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    {% load static %}
+    <link rel = 'stylesheet' href = '{% static "css/style.css" %}'>
+    <script src = "{% static 'js/script.js' %}"></script>
 </head>
 <body>
-<h1>Hello World!</h1>
+<div class = 'login_page'>
+    <div class = 'form'>
+        <form method = 'post' class = 'login-form'>
+            <input name = 'firstname' type="text" placeholder = 'first name' />
+            <input name = 'secondname' type="text" placeholder = 'second name' />
+            <button name = 'login_button' class = 'button'>
+                <p>INPUT</p>
+            </button>
+        </form>>
+    </div>
+</div>
 </body>
 </html>
