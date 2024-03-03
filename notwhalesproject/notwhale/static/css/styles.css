@@ -1,0 +1,11 @@
+.footer {
+  background: black;
+}
+.footer-hrefs {
+  text-align: center;
+  color: white;
+  display: flex;
+}
+.footer-list {
+  list-style-type: none;
+}
