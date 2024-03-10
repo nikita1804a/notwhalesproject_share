@@ -1,11 +1,31 @@
+.PC {
+  display: flex;
+  justify-content: space-between;
+  font-size: 36px;
+}
+.phone {
+  display: none;
+}
+.menu-hrefs {
+  list-style-type: none;
+}
 .footer {
   background: black;
+  display: flex;
+  text-align: center;
 }
 .footer-hrefs {
-  text-align: center;
   color: white;
-  display: flex;
 }
 .footer-list {
   list-style-type: none;
+}
+@media screen and (max-width: 500px) {
+  .PC {
+    display: none;
+  }
+  .phone {
+    display: block;
+    text-align: center;
+  }
 }
