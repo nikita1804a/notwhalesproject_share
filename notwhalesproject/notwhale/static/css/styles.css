@@ -1,11 +1,17 @@
-.PC {
+@font-face {
+  font-family: "MonsterImport";
+  src: url(../fonts/Monsterdemo.ttf);
+}
+* {
+  font-family: "MonsterImport";
+}
+.header {
   display: flex;
   justify-content: space-between;
   font-size: 36px;
+  margin: 0 20%;
 }
-.phone {
-  display: none;
-}
+
 .menu-hrefs {
   list-style-type: none;
 }
@@ -13,19 +19,12 @@
   background: black;
   display: flex;
   text-align: center;
+  justify-content: center;
 }
 .footer-hrefs {
-  color: white;
+  color: #F9F6EE;
 }
 .footer-list {
   list-style-type: none;
-}
-@media screen and (max-width: 500px) {
-  .PC {
-    display: none;
-  }
-  .phone {
-    display: block;
-    text-align: center;
-  }
+  padding: 0;
 }
