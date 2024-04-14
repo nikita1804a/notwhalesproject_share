@@ -4,17 +4,38 @@
 }
 * {
   font-family: "MonsterImport";
+  margin: 0;
+  padding: 0;
 }
 .header {
+  color: black;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   font-size: 36px;
   margin: 0 20%;
+}
+.header p {
+  margin-top: 30px;
 }
 
 .menu-hrefs {
   list-style-type: none;
 }
+
+.main-pic {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 70px;
+  object-fit: cover;
+  width: 100%;
+}
+.main-pic img {
+  object-fit: cover;
+  width: 33.333%;
+  height: 400px;
+}
+
 .footer {
   background: black;
   display: flex;
@@ -22,7 +43,11 @@
   justify-content: center;
 }
 .footer-hrefs {
-  color: #F9F6EE;
+  color: #ffe0e0;
+}
+.footer-list li {
+  color: #ffe0e0;
+  background: black;
 }
 .footer-list {
   list-style-type: none;
