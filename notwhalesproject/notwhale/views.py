@@ -6,3 +6,9 @@ def index(request):
 
 def login(request):
     return render(request, 'login.html')
+
+def catalog(request):
+    # context = {
+    #     'products': Products().objects.all
+    # }
+    return render(request, 'catalog.html')

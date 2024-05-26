@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+
+{% for product in products %}
+    <img class="catalog-images" src="{{product.image}}" alt="product.name">
+<p class="cost">${{product.cost}}</p>
+{% endfor %}
+
+{% endblock %}
